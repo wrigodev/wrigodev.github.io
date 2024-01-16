@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+      <title>Test blog</title>
+      <link>https://wrigodev.github.io</link>
+      <description></description>
+      <generator>Zola</generator>
+      <language>en</language>
+      <atom:link href="https://wrigodev.github.io/rss.xml" rel="self" type="application/rss+xml"/>
+      <lastBuildDate>Mon, 04 Feb 2019 00:00:00 +0000</lastBuildDate>
+      <item>
+          <title>Welcome to Terminimal Theme for Zola</title>
+          <pubDate>Mon, 04 Feb 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://wrigodev.github.io/welcome-terminimal-theme/</link>
+          <guid>https://wrigodev.github.io/welcome-terminimal-theme/</guid>
+          <description xml:base="https://wrigodev.github.io/welcome-terminimal-theme/">&lt;p&gt;Welcome to Terminimal! This is a theme showcase post.&lt;&#x2F;p&gt;
+&lt;p&gt;Code block (using &amp;quot;ayu-dark&amp;quot; theme):&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;rust&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-rust &quot;&gt;&lt;code class=&quot;language-rust&quot; data-lang=&quot;rust&quot;&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;use &lt;&#x2F;span&gt;&lt;span&gt;tera&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt;Tera&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;
+&lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#5c6773;&quot;&gt;&#x2F;&#x2F; Use globbing
+&lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;let&lt;&#x2F;span&gt;&lt;span&gt; tera &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;= &lt;&#x2F;span&gt;&lt;span style=&quot;color:#ff7733;&quot;&gt;match &lt;&#x2F;span&gt;&lt;span&gt;Tera&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt;new(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;templates&#x2F;**&#x2F;*.html&amp;quot;&lt;&#x2F;span&gt;&lt;span&gt;) {
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;Ok&lt;&#x2F;span&gt;&lt;span&gt;(t) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&amp;gt;&lt;&#x2F;span&gt;&lt;span&gt; t&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,
+&lt;&#x2F;span&gt;&lt;span&gt;    &lt;&#x2F;span&gt;&lt;span style=&quot;font-style:italic;color:#39bae6;&quot;&gt;Err&lt;&#x2F;span&gt;&lt;span&gt;(e) &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;=&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;{
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;println!&lt;&#x2F;span&gt;&lt;span&gt;(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;Parsing error(s): &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;{}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#c2d94c;&quot;&gt;&amp;quot;&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;,&lt;&#x2F;span&gt;&lt;span&gt; e)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;        &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt;std&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt;process&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;::&lt;&#x2F;span&gt;&lt;span&gt;exit(&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span&gt;)&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;span&gt;    }
+&lt;&#x2F;span&gt;&lt;span&gt;}&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;;
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+&lt;p&gt;Inline code: &lt;code&gt;print(&amp;quot;Hello world!&amp;quot;)&lt;&#x2F;code&gt;.&lt;&#x2F;p&gt;
+&lt;p&gt;Basic typography:&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;em&gt;Italic text&lt;&#x2F;em&gt;. &lt;strong&gt;Bold text&lt;&#x2F;strong&gt;. &lt;em&gt;&lt;strong&gt;Italic bold&lt;&#x2F;strong&gt;&lt;&#x2F;em&gt;. Link: &lt;a href=&quot;#&quot;&gt;click me&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;h1 id=&quot;header-1&quot;&gt;Header 1&lt;&#x2F;h1&gt;
+&lt;h2 id=&quot;header-2&quot;&gt;Header 2&lt;&#x2F;h2&gt;
+&lt;h3 id=&quot;header-3&quot;&gt;Header 3&lt;&#x2F;h3&gt;
+&lt;h4 id=&quot;header-4&quot;&gt;Header 4&lt;&#x2F;h4&gt;
+&lt;p&gt;Quote:&lt;&#x2F;p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&amp;quot;Theory is when you know everything but nothing works.
+Practice is when everything works but no one knows why.
+In our lab, theory and practice are combined: nothing works and no one knows why.&amp;quot;&lt;&#x2F;p&gt;
+&lt;&#x2F;blockquote&gt;
+&lt;p&gt;Lists:&lt;&#x2F;p&gt;
+&lt;ul&gt;
+&lt;li&gt;A&lt;&#x2F;li&gt;
+&lt;li&gt;B&lt;&#x2F;li&gt;
+&lt;li&gt;CDEF
+&lt;ul&gt;
+&lt;li&gt;Nested Item
+&lt;ul&gt;
+&lt;li&gt;And more nesting&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;li&gt;GHIJ&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;&#x2F;li&gt;
+&lt;&#x2F;ul&gt;
+&lt;ol&gt;
+&lt;li&gt;One&lt;&#x2F;li&gt;
+&lt;li&gt;Two&lt;&#x2F;li&gt;
+&lt;li&gt;Three&lt;&#x2F;li&gt;
+&lt;&#x2F;ol&gt;
+&lt;p&gt;Horizontal line:&lt;&#x2F;p&gt;
+&lt;hr &#x2F;&gt;
+&lt;p&gt;This is where the post summary ends.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>More ranting</title>
+          <pubDate>Sun, 03 Feb 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://wrigodev.github.io/more-ranting/</link>
+          <guid>https://wrigodev.github.io/more-ranting/</guid>
+          <description xml:base="https://wrigodev.github.io/more-ranting/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>I don&#x27;t like JavaScript</title>
+          <pubDate>Sat, 02 Feb 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://wrigodev.github.io/i-dont-like-javascript/</link>
+          <guid>https://wrigodev.github.io/i-dont-like-javascript/</guid>
+          <description xml:base="https://wrigodev.github.io/i-dont-like-javascript/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien.&lt;&#x2F;p&gt;
+&lt;p&gt;&lt;a href=&quot;https:&#x2F;&#x2F;wtfjs.com&quot;&gt;wtfjs.com&lt;&#x2F;a&gt;&lt;&#x2F;p&gt;
+&lt;pre data-lang=&quot;javascript&quot; style=&quot;background-color:#0f1419;color:#bfbab0;&quot; class=&quot;language-javascript &quot;&gt;&lt;code class=&quot;language-javascript&quot; data-lang=&quot;javascript&quot;&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;&amp;gt;&amp;gt;&amp;gt; &lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;15&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;45&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;60&lt;&#x2F;span&gt;&lt;span&gt;]&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29668;&quot;&gt;.&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f07178;&quot;&gt;sort&lt;&#x2F;span&gt;&lt;span&gt;()
+&lt;&#x2F;span&gt;&lt;span&gt;[&lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;1&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;15&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;2&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;3&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;30&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;45&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;5&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;60&lt;&#x2F;span&gt;&lt;span style=&quot;color:#bfbab0cc;&quot;&gt;, &lt;&#x2F;span&gt;&lt;span style=&quot;color:#f29718;&quot;&gt;7&lt;&#x2F;span&gt;&lt;span&gt;]
+&lt;&#x2F;span&gt;&lt;&#x2F;code&gt;&lt;&#x2F;pre&gt;
+</description>
+      </item>
+      <item>
+          <title>Zola is nice</title>
+          <pubDate>Fri, 01 Feb 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://wrigodev.github.io/zola-is-nice/</link>
+          <guid>https://wrigodev.github.io/zola-is-nice/</guid>
+          <description xml:base="https://wrigodev.github.io/zola-is-nice/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;
+</description>
+      </item>
+      <item>
+          <title>Learning JavaScript</title>
+          <pubDate>Thu, 03 Jan 2019 00:00:00 +0000</pubDate>
+          <author>Unknown</author>
+          <link>https://wrigodev.github.io/learning-javascript/</link>
+          <guid>https://wrigodev.github.io/learning-javascript/</guid>
+          <description xml:base="https://wrigodev.github.io/learning-javascript/">&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc eu feugiat sapien. Aenean ligula nunc, laoreet id sem in, interdum bibendum felis. Donec vel dui neque. Praesent ac sem ut justo volutpat rutrum a imperdiet tellus. Nam lobortis massa non hendrerit hendrerit. Vivamus porttitor dignissim turpis, eget aliquam urna tincidunt non. Aliquam et fringilla turpis. Nullam eros est, eleifend in ornare sed, hendrerit eget est. Aliquam tellus felis, suscipit vitae ex vel, fringilla tempus massa. Nulla facilisi. Pellentesque lobortis consequat lectus. Maecenas ac libero elit.&lt;&#x2F;p&gt;
+</description>
+      </item>
+    </channel>
+</rss>
